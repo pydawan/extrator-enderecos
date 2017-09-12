@@ -10,9 +10,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * <p>
- * Define um endereço a ser persistido no banco de dados.
- * </p>
+ * <p>Define um endereço a ser persistido no banco de dados.</p>
  * 
  * @author thiago-amm
  * @version v1.0.0 12/09/2017

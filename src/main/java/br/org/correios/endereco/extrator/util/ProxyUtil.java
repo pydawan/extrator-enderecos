@@ -7,7 +7,7 @@ package br.org.correios.endereco.extrator.util;
  * @version v1.0.0 12/09/2017
  * @since v1.0.0
  */
-public final class Proxy {
+public final class ProxyUtil {
 
     public static void configure() {
         System.out.println("Configurando o proxy");

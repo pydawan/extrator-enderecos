@@ -10,7 +10,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import br.org.correios.endereco.extrator.model.Endereco;
-import br.org.correios.endereco.extrator.util.Proxy;
+import br.org.correios.endereco.extrator.util.ProxyUtil;
 import jedi.db.engine.JediEngine;
 
 /**
@@ -45,7 +45,7 @@ public class CorreiosTest {
       try {
          File file = new File(System.getProperty("user.dir") + File.separator + "enderecos.txt");
          PrintWriter pw = new PrintWriter(file);
-         Proxy.configure();
+         ProxyUtil.configure();
          System.out.println();
          System.out.println("###################################################################");
          System.out.println("#   LOGRADOURO   |   BAIRRO   |   LOCALIDADE   |   UF   |   CEP   #");
