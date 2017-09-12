@@ -8,11 +8,9 @@ import br.org.correios.endereco.extrator.model.Endereco;
 
 /**
  * <p>Testa a conversão de objeto Java para XML.</p>
- * 
  * @author thiago-amm
  * @version v1.0.0 12/09/2017
  * @since v1.0.0
- *
  */
 public class XStreamTest {
 
